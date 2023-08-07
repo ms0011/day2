@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="#internships" role="button"> Internships </a></li>
+                    </a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#projects" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="true">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item  text-capitalize" href="#usability-hub-clone-project">usability
+                                    hub clone</a></li>
+                            <li><a class="dropdown-item  text-capitalize" href="#flipKart-clone-project">flipKart
+                                    clone</a></li>
+                            <li><a class="dropdown-item  text-capitalize" href="#alcohal-detection-project">alcohal
+                                    detection</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="text-center text-capitalize fw-bold bg-info  lh-1 p-3">
+        Welcome to my interactive portfolio
+    </header>
+    <main>
+        <section id="about">
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6 text-center">
+                        <img src="imhg.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="200"
+                            height="250" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold lh-1 mb-3">About Me</h1>
+                        <p class="lead">My name is Mritunjay Singh and <br> I am a fresher developer excited to embark
+                            on a journey <br> in
+                            the software development industry.</p>
+                        <br />
+                        <p class="lead fs-4 fw-200">I have technical skills like Python, JavaScript, C++,<br> SQL
+                            ,HTML/CSS, ReactJs.</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <a type="button" href="https://github.com/" target="_"
+                                class="btn btn-primary btn-lg px-4 me-md-2 my-2"><i class="fa-brands fa-github"></i>
+                                &nbsp;Github &nbsp; <i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+        <section id="education">
+            <h2 class="mb-2">Education </h2>
+
+
+            <div class="project text-white card mb-2" id="usability-hub-clone-project">
+
+                <div class="card-body">
+                    <h5 class="text-dark my-2 card-title text-capitalize">B.Tech from Institute of Engineering and Rural
+                        Technology,
+                        Prayagraj</h5>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li class="text-secondary">Electronic and Communication Engineering </li>
+                        <li class="text-secondary"> 8.133 CGPA</li>
+                        <li class="text-secondary">2023</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project text-white card mb-2" id="usability-hub-clone-project">
+
+                <div class="card-body">
+                    <h5 class="text-dark my-2 card-title text-capitalize">12th from GSVS inter college ,Maharajganj</h5>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li class="text-secondary">78 %</li>
+                        <li class="text-secondary">2018</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <section id="internships" class="mt-3">
+            <h2 class="mb-4">Internships</h2>
+            <div class="row row-cols-1 row-cols-md-2 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Oasis Infobyte</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">Web development</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+
+                                <li>Technology Used: HTML, CSS, Bootstrap, and JavaScript.</li>
+                                <li>I have worked at Oasis Infobyte as a front-end web developer.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Banaras Locomotive Works</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">Locomotive</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>I learned how workshop of SCADA, LAS, COLONY, MRS, works for
+                                    Indian Railways.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="projects">
+            <h2 class="mb-4">Projects</h2>
+            <div class="project text-white card mb-2" id="usability-hub-clone-project">
+
+                <div class="card-body">
+                    <h3 class="text-dark m-2 card-title text-capitalize">usability hub Clone Project</h3>
+
+                    <p class="text-secondary">This is a real-time web application built using HTML, CSS, and
+                        JavaScript for front-end development.</p>
+                    <p class="text-secondary">UsabilityHub is a remote user research platform that takes the
+                        guesswork out of design decisions by validating them with real
+                        users.</p>
+                    <a type="button" class="btn btn-primary mt-2" href="https://ms0011.github.io/usabilityhub_clone/"
+                        target="_blank">View
+                        Details</a>
+                </div>
+            </div>
+            <div class="project text-white card mb-2" id="flipKart-clone-project">
+                <div class="card-body">
+                    <h3 class="text-dark my-2 card-title text-capitalize"> Flipkart Clone Project</h3>
+
+                    <p class="text-secondary"> made Flipkart Clone using CSS, JavaScript, and HTML. I learn
+                        how an e-commerce website works</p>
+                    <p class="text-secondary">
+                        Flipkart Seller Hub offers the perfect opportunity for
+                        businesses to conduct a significant part of their operations
+                        online.
+                    </p>
+                    <a type="button" class="btn btn-primary mt-2" href="https://ms0011.github.io/cl/"
+                        target="_blank">View Details</a>
+                </div>
+            </div>
+            <div class="project text-white card mb-2" id="alcohal-detection-project">
+                <div class="card-body">
+                    <h3 class="text-dark my-2 card-title text-capitalize">Alcohol detection system with engine locking
+                        system for
+                        vehicles</h3>
+
+                    <p class="text-secondary">
+                        This is a project designed by using Arduino UNO, MQ3 Sensor,
+                        Buzzer, LED, DC motor, Switch , Antenna
+                    </p>
+                    <a type="button" class="btn btn-primary mt-2" href="#" target="_blank">View Details</a>
+                </div>
+            </div>
+            <!-- Add more projects here -->
+        </section>
+        <section id="contact">
+            <h2 id="contact-header " class="text-center">Contact</h2>
+            <div id="contect-container"
+                class="d-flex flex-xs-column  justify-content-center text-center gap-3 pt-3 fs-3 rounded-circle">
+                <a href="http://" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="http://" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+
+                <a href="http://https://github.com/ms0011" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="mailto:mritunjaysingh0011@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+                <a href="https://linkedin.com/in/mritunjay-singh--/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="tel:+918858687773">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+
+            </div>
+        </section>
+    </main>
+    <footer class="p-lg-1 p-md-3 p-5 text-center text-white bg-dark">
+        <p class="fs-4">&copy; 2023 Mritunjay Singh. All rights reserved.</p>
+    </footer>
+</div>
+
+</body>
+
+</html>

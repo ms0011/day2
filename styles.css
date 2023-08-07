@@ -1,0 +1,28 @@
+
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+#contect-container{
+  transition: 1s;
+}
+#contect-container i:hover{
+  color: darkblue;
+  scale: 1.12;
+  transform: translateY(-0.2rem);
+  transition: all ease-in-out 0.3s;
+
+}
+
+ 
